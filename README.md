@@ -1,35 +1,15 @@
-FinTrack
+# ASP.NET Core MVC App with Role-Based Authentication and Authorization
+This repository contains an ASP.NET Core MVC application built with a robust role-based authentication and authorization system. The application is designed to demonstrate secure user management and access control, making it a perfect starting point for scalable web applications.
 
-FinTrack, C# ve .NET ile geliştirilmiş kişisel finans takip uygulamasıdır. ASP.NET Core MVC ile web arayüzü, Entity Framework Core ile veri erişimi ve ASP.NET Core Identity ile kullanıcı doğrulama yönetimi sağlar.
-
-🚀 Özellikler
-
-Kullanıcı Doğrulama: Kayıt, giriş ve şifre yönetimi ASP.NET Core Identity ile.
-
-Hesap Yönetimi: Vadesiz, tasarruf, kredi gibi birden fazla finans hesabı oluşturma ve yönetme.
-
-İşlem Takibi: Gelir ve giderleri kaydetme, işlemleri kategorilere ayırma ve geçmişi görüntüleme.
-
-Raporlama: Özel tarih aralıklarına göre gelir ve gider özetlerini görüntüleme.
-
-Veritabanı Migrations: EF Core migrations ile kolay şema güncellemeleri.
-
-🛠️ Teknolojiler
-
-.NET SDK: .NET 9.0
-
-ASP.NET Core MVC
-
-Entity Framework Core
-
-ASP.NET Core Identity
-
-SQL Server (veya tercih ettiğiniz ilişkisel veritabanı)
-
-📋 Gereksinimler
-
-.NET 9.0 SDK
-
-SQL Server (LocalDB veya tam sürüm) veya desteklenen başka bir RDBMS
-
-Visual Studio 2022 (veya VS Code) ve C# eklentileri
+## Features
+* User Authentication: <br />
+  Secure registration and login functionality using ASP.NET Identity. <br />
+* Role-Based Authorization: <br />
+  Admin and User roles implemented for access control. <br />
+  Restrict access to pages based on user roles. <br />
+* Navigation and Error Handling:
+  User-friendly navigation with role-specific menus. <br />
+  Redirection and error handling for unauthorized access. <br />
+* Scalable Architecture:
+  Clean and modular code structure for easy customization. <br />
+  Implements best practices in ASP.NET Core MVC development. <br />
